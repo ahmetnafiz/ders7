@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+h1{
+    color:rgb(0, 0, 0);
+}
+
+.alt-baslik{
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+@keyframes color-change {
+    0% {
+      color: blue;
+    }
+  
+    50% {
+      color: red;
+    }
+  
+    100% {
+      color: blue;
+    }
+}
+
+h1 {
+    animation: color-change 3s infinite;
+}
